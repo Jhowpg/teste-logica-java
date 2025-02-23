@@ -10,7 +10,7 @@ public class DiasDaSemana {
 
       System.out.println("Para saber o dia da semana, basta digitar um número entre 1 e 7");
       int diaSemana = scanner.nextInt();
-
+      // Estrutura de decisão com Switch case
       switch (diaSemana) {
         case 1:
           System.out.println("Domingo");
